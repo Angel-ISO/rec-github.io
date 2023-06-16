@@ -2,17 +2,24 @@
 
 <h1>gestor ciudades</h1>
 
-<ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled">Disabled</a>
-  </li>
-</ul>
+
+
+<div class="container">
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link   enlaceCity"  data-viewcity="view/cities/frmcity.php">Registro</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link   enlaceCity"  data-viewcity="view/cities/lstcity.php">Listado</a>
+    </li>
+  </ul>
+  <div class="container">
+    <div class="container-fluid" id="uicity"  >
+
+
+
+   </div>
+  </div>
+
+
+</div>
